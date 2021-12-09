@@ -40,6 +40,7 @@
       <sound>sound\effect_pickupTreasure</sound>
       <sound>sound\effect_pickupCollectible</sound>
       <sound>sound\effect_pickupCoin</sound>
+      <sound>sound\sound_doorPortal</sound>
     </sounds>
   </sounds>
   <sprites name="sprites">
@@ -73,6 +74,7 @@
       <sprite>sprites\sprite_block</sprite>
       <sprite>sprites\sprite_blockHorizontal</sprite>
       <sprite>sprites\sprite_death</sprite>
+      <sprite>sprites\sprite_lava</sprite>
       <sprite>sprites\sprite_blockVertical</sprite>
       <sprite>sprites\sprite_ladder</sprite>
     </sprites>
@@ -145,7 +147,6 @@
       <sprite>sprites\sprite_arrow</sprite>
       <sprite>sprites\sprite_arrowBullet</sprite>
     </sprites>
-    <sprite>sprites\sprite_lava</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background_snow</background>
@@ -185,11 +186,17 @@
     <objects name="controllers">
       <object>objects\object_controller_main</object>
       <object>objects\object_cave</object>
+      <object>objects\object_night</object>
       <object>objects\object_congratulations</object>
       <object>objects\object_controller_start</object>
     </objects>
     <objects name="other">
       <object>objects\object_levelExit</object>
+      <object>objects\object_nextDoor</object>
+      <object>objects\object_nextDoor2</object>
+      <object>objects\object_nextDoor3</object>
+      <object>objects\object_portal</object>
+      <object>objects\object_portal2</object>
       <object>objects\object_title</object>
     </objects>
     <objects name="blocks">
@@ -256,8 +263,9 @@
   </objects>
   <rooms name="rooms">
     <room>rooms\loader_room</room>
-    <room>rooms\room_level3</room>
     <room>rooms\menu_room</room>
+    <room>rooms\room_level3</room>
+    <room>rooms\room_level4</room>
     <room>rooms\room_level1</room>
     <room>rooms\room_level2</room>
     <room>rooms\room_completed</room>
