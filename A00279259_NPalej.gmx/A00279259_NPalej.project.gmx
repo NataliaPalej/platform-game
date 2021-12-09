@@ -5,9 +5,6 @@
   </Configs>
   <NewExtensions/>
   <sounds name="sound">
-    <sound>sound\sound_killMonser</sound>
-    <sound>sound\sound_killCharacter</sound>
-    <sound>sound\sound_getMushroom</sound>
     <sound>sound\sound_finishLevel</sound>
     <sound>sound\sound_menu</sound>
     <sounds name="Background_Music">
@@ -23,6 +20,26 @@
       <sound>sound\sound_space</sound>
       <sound>sound\sound_town</sound>
       <sound>sound\sound_underwater</sound>
+    </sounds>
+    <sounds name="effects">
+      <sound>sound\sound_getMushroom</sound>
+      <sound>sound\effect_deadSplash</sound>
+      <sound>sound\effect_deadAnimal</sound>
+      <sound>sound\effect_deadFlying</sound>
+      <sound>sound\effect_deadDemon</sound>
+      <sound>sound\effect_deadMagic</sound>
+      <sound>sound\effect_deadGoblin</sound>
+      <sound>sound\effect_deadSmallSplash</sound>
+      <sound>sound\effect_closingDoor</sound>
+      <sound>sound\effect_helpMe</sound>
+      <sound>sound\effect_hurt</sound>
+      <sound>sound\effect_dead</sound>
+      <sound>sound\effect_arrow</sound>
+      <sound>sound\effect_pickupAmmo</sound>
+      <sound>sound\effect_pickupLife</sound>
+      <sound>sound\effect_pickupTreasure</sound>
+      <sound>sound\effect_pickupCollectible</sound>
+      <sound>sound\effect_pickupCoin</sound>
     </sounds>
   </sounds>
   <sprites name="sprites">
@@ -72,7 +89,7 @@
       <sprite>sprites\sprite_next3</sprite>
       <sprite>sprites\sprite_portal</sprite>
       <sprite>sprites\sprite_portal2</sprite>
-      <sprite>sprites\sprite_aliceLogo</sprite>
+      <sprite>sprites\sprite_gameLogo</sprite>
       <sprite>sprites\sprite_congratulation</sprite>
     </sprites>
     <sprites name="buttons">
@@ -146,6 +163,7 @@
     <background>background\background_tiles</background>
     <background>background\background_tiles1</background>
     <background>background\background_tiles2</background>
+    <background>background\background_menu</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
@@ -166,7 +184,7 @@
   <objects name="objects">
     <objects name="controllers">
       <object>objects\object_controller_main</object>
-      <object>objects\object_caveSound</object>
+      <object>objects\object_cave</object>
       <object>objects\object_congratulations</object>
       <object>objects\object_controller_start</object>
     </objects>
@@ -238,8 +256,8 @@
   </objects>
   <rooms name="rooms">
     <room>rooms\loader_room</room>
-    <room>rooms\menu_room</room>
     <room>rooms\room_level3</room>
+    <room>rooms\menu_room</room>
     <room>rooms\room_level1</room>
     <room>rooms\room_level2</room>
     <room>rooms\room_completed</room>

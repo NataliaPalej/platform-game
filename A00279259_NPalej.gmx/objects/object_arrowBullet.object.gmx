@@ -25,7 +25,7 @@
         <arguments>
           <argument>
             <kind>6</kind>
-            <sound>sound_killMonser</sound>
+            <sound>effect_deadFlying</sound>
           </argument>
           <argument>
             <kind>3</kind>
@@ -109,7 +109,7 @@
         <arguments>
           <argument>
             <kind>6</kind>
-            <sound>sound_killMonser</sound>
+            <sound>effect_deadSmallSplash</sound>
           </argument>
           <argument>
             <kind>3</kind>
@@ -193,7 +193,7 @@
         <arguments>
           <argument>
             <kind>6</kind>
-            <sound>sound_killMonser</sound>
+            <sound>effect_deadSplash</sound>
           </argument>
           <argument>
             <kind>3</kind>
@@ -277,7 +277,7 @@
         <arguments>
           <argument>
             <kind>6</kind>
-            <sound>sound_killMonser</sound>
+            <sound>effect_deadSplash</sound>
           </argument>
           <argument>
             <kind>3</kind>
@@ -361,7 +361,7 @@
         <arguments>
           <argument>
             <kind>6</kind>
-            <sound>sound_killMonser</sound>
+            <sound>effect_deadFlying</sound>
           </argument>
           <argument>
             <kind>3</kind>
@@ -445,7 +445,7 @@
         <arguments>
           <argument>
             <kind>6</kind>
-            <sound>sound_killMonser</sound>
+            <sound>effect_deadSplash</sound>
           </argument>
           <argument>
             <kind>3</kind>
@@ -529,7 +529,7 @@
         <arguments>
           <argument>
             <kind>6</kind>
-            <sound>sound_killMonser</sound>
+            <sound>effect_deadFlying</sound>
           </argument>
           <argument>
             <kind>3</kind>
@@ -613,7 +613,7 @@
         <arguments>
           <argument>
             <kind>6</kind>
-            <sound>sound_killMonser</sound>
+            <sound>effect_deadFlying</sound>
           </argument>
           <argument>
             <kind>3</kind>
@@ -697,7 +697,7 @@
         <arguments>
           <argument>
             <kind>6</kind>
-            <sound>sound_killMonser</sound>
+            <sound>effect_deadAnimal</sound>
           </argument>
           <argument>
             <kind>3</kind>
