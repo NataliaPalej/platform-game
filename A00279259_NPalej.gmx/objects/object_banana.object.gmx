@@ -29,11 +29,11 @@
           </argument>
           <argument>
             <kind>0</kind>
-            <string>random(10)</string>
+            <string>random(11)</string>
           </argument>
           <argument>
             <kind>0</kind>
-            <string>0</string>
+            <string>0.5</string>
           </argument>
         </arguments>
       </action>
