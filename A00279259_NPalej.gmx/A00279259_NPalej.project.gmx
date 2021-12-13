@@ -68,6 +68,9 @@
         <sprite>sprites\sprite_ratRight</sprite>
         <sprite>sprites\sprite_flyLeft</sprite>
         <sprite>sprites\sprite_flyRight</sprite>
+        <sprite>sprites\sprite_pathFinder</sprite>
+        <sprite>sprites\sprite_snakeRight</sprite>
+        <sprite>sprites\sprite_snakeLeft</sprite>
       </sprites>
       <sprites name="zombies">
         <sprite>sprites\sprite_zombieLeft</sprite>
@@ -220,9 +223,11 @@
   <objects name="objects">
     <objects name="controllers">
       <object>objects\object_controller_main</object>
-      <object>objects\object_cave</object>
-      <object>objects\object_night</object>
-      <object>objects\object_town</object>
+      <object>objects\object_level1</object>
+      <object>objects\object_level2</object>
+      <object>objects\object_level3</object>
+      <object>objects\object_level4</object>
+      <object>objects\object_level5</object>
       <object>objects\object_congratulations</object>
       <object>objects\object_controller_start</object>
     </objects>
@@ -260,11 +265,14 @@
         <object>objects\object_wasp</object>
         <object>objects\object_bird</object>
         <object>objects\object_rabbit</object>
+        <object>objects\object_tarantella</object>
         <object>objects\object_toucan</object>
         <object>objects\object_worm</object>
         <object>objects\object_spider</object>
+        <object>objects\object_snake</object>
         <object>objects\object_scorpion</object>
         <object>objects\object_rat</object>
+        <object>objects\object_pathFinder</object>
       </objects>
       <objects name="human">
         <object>objects\object_humanDead</object>
@@ -334,6 +342,8 @@
     <room>rooms\room_level1</room>
     <room>rooms\room_level2</room>
     <room>rooms\room_level3</room>
+    <room>rooms\room_level4</room>
+    <room>rooms\room_level5</room>
     <room>rooms\room_completed</room>
     <room>rooms\hiscore_room</room>
   </rooms>

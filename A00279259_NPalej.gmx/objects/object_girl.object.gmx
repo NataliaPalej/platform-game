@@ -79,7 +79,7 @@
         <arguments>
           <argument>
             <kind>5</kind>
-            <sprite>sprite_girlLeft</sprite>
+            <sprite>sprite_girlRight</sprite>
           </argument>
           <argument>
             <kind>0</kind>
@@ -121,7 +121,7 @@
         <arguments>
           <argument>
             <kind>5</kind>
-            <sprite>sprite_girlRight</sprite>
+            <sprite>sprite_girlLeft</sprite>
           </argument>
           <argument>
             <kind>0</kind>

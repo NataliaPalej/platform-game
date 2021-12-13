@@ -2,15 +2,15 @@
 <sprite>
   <type>0</type>
   <xorig>32</xorig>
-  <yorigin>25</yorigin>
+  <yorigin>24</yorigin>
   <colkind>1</colkind>
   <coltolerance>0</coltolerance>
   <sepmasks>0</sepmasks>
   <bboxmode>0</bboxmode>
-  <bbox_left>0</bbox_left>
-  <bbox_right>63</bbox_right>
-  <bbox_top>0</bbox_top>
-  <bbox_bottom>63</bbox_bottom>
+  <bbox_left>9</bbox_left>
+  <bbox_right>61</bbox_right>
+  <bbox_top>7</bbox_top>
+  <bbox_bottom>43</bbox_bottom>
   <HTile>0</HTile>
   <VTile>0</VTile>
   <TextureGroups>
@@ -18,7 +18,7 @@
   </TextureGroups>
   <For3D>0</For3D>
   <width>64</width>
-  <height>64</height>
+  <height>48</height>
   <frames>
     <frame index="0">images\sprite_toucanRight_0.png</frame>
     <frame index="1">images\sprite_toucanRight_1.png</frame>

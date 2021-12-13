@@ -2,7 +2,7 @@
 <sprite>
   <type>0</type>
   <xorig>16</xorig>
-  <yorigin>26</yorigin>
+  <yorigin>13</yorigin>
   <colkind>1</colkind>
   <coltolerance>0</coltolerance>
   <sepmasks>0</sepmasks>
@@ -18,7 +18,7 @@
   </TextureGroups>
   <For3D>0</For3D>
   <width>32</width>
-  <height>32</height>
+  <height>27</height>
   <frames>
     <frame index="0">images\sprite_potion2_0.png</frame>
     <frame index="1">images\sprite_potion2_1.png</frame>
@@ -28,5 +28,12 @@
     <frame index="5">images\sprite_potion2_5.png</frame>
     <frame index="6">images\sprite_potion2_6.png</frame>
     <frame index="7">images\sprite_potion2_7.png</frame>
+    <frame index="8">images\sprite_potion2_8.png</frame>
+    <frame index="9">images\sprite_potion2_9.png</frame>
+    <frame index="10">images\sprite_potion2_10.png</frame>
+    <frame index="11">images\sprite_potion2_11.png</frame>
+    <frame index="12">images\sprite_potion2_12.png</frame>
+    <frame index="13">images\sprite_potion2_13.png</frame>
+    <frame index="14">images\sprite_potion2_14.png</frame>
   </frames>
 </sprite>
