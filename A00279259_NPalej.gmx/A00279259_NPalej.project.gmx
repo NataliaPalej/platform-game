@@ -94,6 +94,7 @@
     </sprites>
     <sprites name="blocks">
       <sprite>sprites\sprite_block</sprite>
+      <sprite>sprites\sprite_breakableBlock</sprite>
       <sprite>sprites\sprite_blockHorizontal</sprite>
       <sprite>sprites\sprite_death</sprite>
       <sprite>sprites\sprite_lava</sprite>
@@ -229,6 +230,7 @@
     </objects>
     <objects name="blocks">
       <object>objects\object_block</object>
+      <object>objects\object_breakableBlock</object>
       <object>objects\object_blockHorizontal</object>
       <object>objects\object_blockVertical</object>
       <object>objects\object_blockDeath</object>
@@ -284,13 +286,12 @@
         <object>objects\object_amulet2</object>
         <object>objects\object_amulet4</object>
         <object>objects\object_amulet</object>
-        <object>objects\object_eq1</object>
         <object>objects\object_eq2</object>
         <object>objects\object_eq3</object>
         <object>objects\object_eq4</object>
         <object>objects\object_ring</object>
-        <object>objects\object_potion2</object>
-        <object>objects\object_potion</object>
+        <object>objects\object_potion_ammo</object>
+        <object>objects\object_potion_life</object>
       </objects>
       <objects name="items">
         <object>objects\object_book2</object>

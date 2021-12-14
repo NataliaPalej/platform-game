@@ -394,51 +394,7 @@
         <isnot>0</isnot>
       </action>
     </event>
-    <event eventtype="4" ename="object_ring">
-      <action>
-        <libid>1</libid>
-        <id>211</id>
-        <kind>0</kind>
-        <userelative>0</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>0</useapplyto>
-        <exetype>1</exetype>
-        <functionname>action_sound</functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>6</kind>
-            <sound>effect_pickupCollectible</sound>
-          </argument>
-          <argument>
-            <kind>3</kind>
-            <string>0</string>
-          </argument>
-        </arguments>
-      </action>
-      <action>
-        <libid>1</libid>
-        <id>701</id>
-        <kind>0</kind>
-        <userelative>-1</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>0</useapplyto>
-        <exetype>1</exetype>
-        <functionname>action_set_score</functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>-1</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>0</kind>
-            <string>20</string>
-          </argument>
-        </arguments>
-      </action>
+    <event eventtype="4" ename="object_breakableBlock">
       <action>
         <libid>1</libid>
         <id>203</id>
@@ -449,7 +405,7 @@
         <exetype>1</exetype>
         <functionname>action_kill_object</functionname>
         <codestring></codestring>
-        <whoName>other</whoName>
+        <whoName>self</whoName>
         <relative>0</relative>
         <isnot>0</isnot>
       </action>
@@ -803,7 +759,7 @@
         <arguments>
           <argument>
             <kind>0</kind>
-            <string>20</string>
+            <string>15</string>
           </argument>
         </arguments>
       </action>
@@ -882,7 +838,7 @@
         <isnot>0</isnot>
       </action>
     </event>
-    <event eventtype="4" ename="object_potion">
+    <event eventtype="4" ename="object_potion_life">
       <action>
         <libid>1</libid>
         <id>211</id>
@@ -986,7 +942,7 @@
         <isnot>0</isnot>
       </action>
     </event>
-    <event eventtype="4" ename="object_potion2">
+    <event eventtype="4" ename="object_potion_ammo">
       <action>
         <libid>1</libid>
         <id>211</id>
@@ -1027,7 +983,7 @@
         <arguments>
           <argument>
             <kind>0</kind>
-            <string>15</string>
+            <string>5</string>
           </argument>
         </arguments>
       </action>
@@ -1052,6 +1008,66 @@
           <argument>
             <kind>0</kind>
             <string>10</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>203</id>
+        <kind>0</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>1</exetype>
+        <functionname>action_kill_object</functionname>
+        <codestring></codestring>
+        <whoName>other</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+      </action>
+    </event>
+    <event eventtype="4" ename="object_ring">
+      <action>
+        <libid>1</libid>
+        <id>211</id>
+        <kind>0</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>0</useapplyto>
+        <exetype>1</exetype>
+        <functionname>action_sound</functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>6</kind>
+            <sound>effect_pickupCollectible</sound>
+          </argument>
+          <argument>
+            <kind>3</kind>
+            <string>0</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>701</id>
+        <kind>0</kind>
+        <userelative>-1</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>0</useapplyto>
+        <exetype>1</exetype>
+        <functionname>action_set_score</functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>-1</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>0</kind>
+            <string>25</string>
           </argument>
         </arguments>
       </action>
@@ -1111,7 +1127,7 @@
         <arguments>
           <argument>
             <kind>0</kind>
-            <string>20</string>
+            <string>10</string>
           </argument>
         </arguments>
       </action>
@@ -1651,7 +1667,7 @@
         <arguments>
           <argument>
             <kind>0</kind>
-            <string>20</string>
+            <string>15</string>
           </argument>
         </arguments>
       </action>
@@ -1711,7 +1727,7 @@
         <arguments>
           <argument>
             <kind>0</kind>
-            <string>20</string>
+            <string>10</string>
           </argument>
         </arguments>
       </action>
@@ -1771,7 +1787,7 @@
         <arguments>
           <argument>
             <kind>0</kind>
-            <string>20</string>
+            <string>5</string>
           </argument>
         </arguments>
       </action>
@@ -1871,7 +1887,7 @@
         <arguments>
           <argument>
             <kind>0</kind>
-            <string>100</string>
+            <string>1000</string>
           </argument>
         </arguments>
       </action>
@@ -1931,7 +1947,7 @@
         <arguments>
           <argument>
             <kind>0</kind>
-            <string>20</string>
+            <string>30</string>
           </argument>
         </arguments>
       </action>
@@ -7527,7 +7543,7 @@
         <arguments>
           <argument>
             <kind>0</kind>
-            <string>300</string>
+            <string>250</string>
           </argument>
         </arguments>
       </action>
