@@ -347,8 +347,8 @@
     <instance objName="object_bird" x="112" y="48" name="inst_C2FE13CA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="object_ammunition" x="32" y="304" name="inst_11747195" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="object_redHead" x="224" y="208" name="inst_2E532CA0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="object_marker" x="208" y="432" name="inst_8A27E84E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="object_marker" x="112" y="192" name="inst_EB507640" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="object_marker" x="192" y="448" name="inst_8A27E84E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="object_marker" x="112" y="208" name="inst_EB507640" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="object_nextDoor3" x="608" y="448" name="inst_7FD7C3A3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="object_mushroom" x="592" y="384" name="inst_D256AAE1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="object_block" x="0" y="0" name="inst_F9620963" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -356,7 +356,7 @@
     <instance objName="object_block" x="512" y="400" name="inst_6788E76F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="object_worm" x="496" y="448" name="inst_7D9335AF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="object_wasp" x="496" y="48" name="inst_8E2C5AE2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="object_girl" x="320" y="448" name="inst_0035E0A2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="object_worm" x="240" y="448" name="inst_10AD760F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="background_tiles" x="16" y="320" w="16" h="16" xo="0" yo="64" id="10002786" name="inst_AB406A3A" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>

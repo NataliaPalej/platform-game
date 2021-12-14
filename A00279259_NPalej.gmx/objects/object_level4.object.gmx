@@ -65,7 +65,7 @@
         <arguments>
           <argument>
             <kind>6</kind>
-            <sound>sound_creepy</sound>
+            <sound>sound_magic</sound>
           </argument>
           <argument>
             <kind>3</kind>
@@ -193,7 +193,7 @@
         <arguments>
           <argument>
             <kind>6</kind>
-            <sound>sound_cave</sound>
+            <sound>sound_magic</sound>
           </argument>
           <argument>
             <kind>3</kind>

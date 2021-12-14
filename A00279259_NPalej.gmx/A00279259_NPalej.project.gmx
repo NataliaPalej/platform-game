@@ -11,15 +11,11 @@
       <sound>sound\sound_cave</sound>
       <sound>sound\sound_creepy</sound>
       <sound>sound\sound_cyberpunk</sound>
-      <sound>sound\sound_dreams</sound>
       <sound>sound\sound_forest</sound>
-      <sound>sound\sound_heroic</sound>
       <sound>sound\sound_mystical</sound>
       <sound>sound\sound_magic</sound>
-      <sound>sound\sound_playfull</sound>
-      <sound>sound\sound_space</sound>
       <sound>sound\sound_town</sound>
-      <sound>sound\sound_underwater</sound>
+      <sound>sound\sound_congrats</sound>
     </sounds>
     <sounds name="effects">
       <sound>sound\sound_getMushroom</sound>
@@ -31,7 +27,6 @@
       <sound>sound\effect_deadGoblin</sound>
       <sound>sound\effect_deadSmallSplash</sound>
       <sound>sound\effect_closingDoor</sound>
-      <sound>sound\effect_helpMe</sound>
       <sound>sound\effect_hurt</sound>
       <sound>sound\effect_dead</sound>
       <sound>sound\effect_arrow</sound>
@@ -43,7 +38,9 @@
       <sound>sound\sound_doorPortal</sound>
       <sound>sound\sound_dogSad</sound>
       <sound>sound\sound_dogBark</sound>
+      <sound>sound\sound_dogDead</sound>
     </sounds>
+    <sound>sound\sound_pistol</sound>
   </sounds>
   <sprites name="sprites">
     <sprites name="enemies">
@@ -112,11 +109,10 @@
       <sprite>sprites\sprite_lillyClimbing</sprite>
     </sprites>
     <sprites name="other">
+      <sprite>sprites\sprite_finish</sprite>
       <sprite>sprites\sprite_level</sprite>
-      <sprite>sprites\sprite_next</sprite>
       <sprite>sprites\sprite_next2</sprite>
       <sprite>sprites\sprite_next3</sprite>
-      <sprite>sprites\sprite_portal</sprite>
       <sprite>sprites\sprite_portal2</sprite>
       <sprite>sprites\sprite_gameLogo</sprite>
       <sprite>sprites\sprite_congratulation</sprite>
@@ -153,9 +149,7 @@
       </sprites>
       <sprite>sprites\sprite_chest</sprite>
       <sprite>sprites\sprite_coin</sprite>
-      <sprite>sprites\sprite_crystal</sprite>
       <sprites name="eq">
-        <sprite>sprites\sprite_eq1</sprite>
         <sprite>sprites\sprite_eq2</sprite>
         <sprite>sprites\sprite_eq3</sprite>
         <sprite>sprites\sprite_eq4</sprite>
@@ -165,17 +159,8 @@
         <sprite>sprites\sprite_amulet4</sprite>
         <sprite>sprites\sprite_potion1</sprite>
         <sprite>sprites\sprite_potion2</sprite>
-        <sprite>sprites\sprite_ring</sprite>
         <sprite>sprites\sprite_ring2</sprite>
-        <sprite>sprites\sprite_ring3</sprite>
-        <sprite>sprites\sprite_rune1</sprite>
-        <sprite>sprites\sprite_rune2</sprite>
-        <sprite>sprites\sprite_rune3</sprite>
-        <sprite>sprites\sprite_rune4</sprite>
       </sprites>
-      <sprite>sprites\sprite_space1</sprite>
-      <sprite>sprites\sprite_space2</sprite>
-      <sprite>sprites\sprite_space3</sprite>
     </sprites>
     <sprites name="weapons">
       <sprite>sprites\sprite_ammunition</sprite>
@@ -236,6 +221,7 @@
       <object>objects\object_nextDoor</object>
       <object>objects\object_nextDoor2</object>
       <object>objects\object_nextDoor3</object>
+      <object>objects\object_finish</object>
       <object>objects\object_portal</object>
       <object>objects\object_portal2</object>
       <object>objects\object_title</object>
@@ -302,6 +288,7 @@
         <object>objects\object_eq2</object>
         <object>objects\object_eq3</object>
         <object>objects\object_eq4</object>
+        <object>objects\object_ring</object>
         <object>objects\object_potion2</object>
         <object>objects\object_potion</object>
       </objects>
