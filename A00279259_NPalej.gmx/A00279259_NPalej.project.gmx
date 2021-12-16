@@ -230,7 +230,6 @@
     </objects>
     <objects name="blocks">
       <object>objects\object_block</object>
-      <object>objects\object_breakableBlock</object>
       <object>objects\object_blockHorizontal</object>
       <object>objects\object_blockVertical</object>
       <object>objects\object_blockDeath</object>
